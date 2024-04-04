@@ -68,6 +68,9 @@
     .form-control {
       width: 100%;
     }
+    .faint-label {
+      opacity: 0.3; 
+    }
 
   </style>
 </head>
@@ -78,7 +81,7 @@
     <h2 class="text-center mb-4" style="font-size: 25px; ">Find your Partner</h2>
     <form>
       <div class="form-group">
-        <label for="age" >Age</label>
+        <label for="age" class="faint-label">Age</label>
         <select class="form-control" id="age">
           <option value="">Select Age</option>
           <option value="0-20">0 to 18</option>
@@ -89,7 +92,7 @@
       </div>
 
       <div class="form-group">
-        <label for="religion" >Religion</label>
+        <label for="religion" class="faint-label">Religion</label>
         <select class="form-control" id="religion">
           <option value="">Select Religion</option>
           <option value="Hindu">Hindu</option>
@@ -101,7 +104,7 @@
       </div>
 
       <div class="form-group">
-        <label for="city" >City</label>
+        <label for="city" class="faint-label">City</label>
         <select class="form-control" id="city">
           <option value="">Select City</option>
           <option value="Pune">Pune</option>
